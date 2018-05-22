@@ -1,0 +1,18 @@
+.writer .tabbed_pane:not(.hidden)  {
+	margin: 2.5em 0 1.5em;
+	clear: both;
+	text-align: center;
+	left: 0;
+	padding: 0;
+	display: block;
+	line-height: 1.5;
+}
+div.tabbed_pane ul.tabs {
+    background-color: transparent;
+    border: 0;
+    margin-left: 0.5em;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+}
